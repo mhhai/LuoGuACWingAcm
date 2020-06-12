@@ -10,7 +10,8 @@ int f[N][N];
 
 int main() {
     cin >> n >> m;
-    for (int i = 1; i <= n; i++) cin >> v[i] >> w[i];
+    for (int i = 1; i <= n; i++) 
+        cin >> v[i] >> w[i];
     for (int i = 1; i <= n; i++) {
         for (int j = 0; j <= m; j++) {
             f[i][j] = f[i - 1][j];
